@@ -2,7 +2,8 @@
 
 **Docu Pal💬** is a versatile application that leverages __Retrieval-Augmented Generation (RAG)__ to provide a seamless and intelligent way to interact with your documents. Built using advanced tools like LangChain, FAISS, and Google Generative AI, Docu Pal enables users to upload and query various document types, including PDFs, DOCX files, and text files.  
 
-**Features:**  
+**FEATURES:**  
+
 **Document Upload:** Supports multiple file types including PDFs, DOCX files, and plain text files.
 
 **Contextual Querying:** Allows users to ask questions about the content of the uploaded documents and receive accurate, contextually relevant answers.
@@ -11,7 +12,8 @@
 
 **User-Friendly Interface:** Provides an intuitive interface for easy document interaction and query handling.
 
-**How It Works:**
+**HOW IT WORKS:**
+
 **Upload Your Document:** Users can upload their documents directly through the app.
 
 **Text Extraction:** The application extracts text from the uploaded document.
@@ -20,7 +22,8 @@
 
 **Question Answering:** Users can ask questions, and the app retrieves relevant information to generate precise answers based on the document's content.
 
-**Technologies Used:**
+**TECHNOLOGIES USED:**
+
 **LangChain:** For managing chains of language models and retrieval systems.
 
 **FAISS:** For similarity search and document retrieval.
