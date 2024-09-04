@@ -55,12 +55,12 @@ def main():
             doc_text = read_file(uploaded_file)
  
             # Initialize vector store and embeddings
-            embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key='XXXXXXXXXXX')
+            embeddings = GoogleGenerativeAIEmbeddings(model="XXXXXXXXXXX", google_api_key='XXXXXXXXXXX')
             vector_store = FAISS.from_texts([doc_text], embedding=embeddings)
  
             # Set up the QA chain with the retriever
             qa_chain = RetrievalQA.from_chain_type(
-                llm=ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key='XXXXXXXXXXXXXXX'),
+                llm=ChatGoogleGenerativeAI(model="XXXXXXXXXXXXX", google_api_key='XXXXXXXXXXXXXXX'),
                 retriever=vector_store.as_retriever(search_kwargs={"k": 5}),
                 return_source_documents=True,
                 chain_type_kwargs={"prompt": QA_CHAIN_PROMPT}
