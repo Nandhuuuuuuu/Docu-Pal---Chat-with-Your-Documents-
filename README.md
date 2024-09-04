@@ -2,32 +2,32 @@
 
 **Docu Pal💬** is a versatile application that leverages __Retrieval-Augmented Generation (RAG)__ to provide a seamless and intelligent way to interact with your documents. Built using advanced tools like LangChain, FAISS, and Google Generative AI, Docu Pal enables users to upload and query various document types, including PDFs, DOCX files, and text files.  
 
-**FEATURES:**  
+🡆**FEATURES:**  
 
-**Document Upload:** Supports multiple file types including PDFs, DOCX files, and plain text files.
+🔹**Document Upload:** Supports multiple file types including PDFs, DOCX files, and plain text files.
 
-**Contextual Querying:** Allows users to ask questions about the content of the uploaded documents and receive accurate, contextually relevant answers.
+🔹**Contextual Querying:** Allows users to ask questions about the content of the uploaded documents and receive accurate, contextually relevant answers.
 
-**Advanced Retrieval and Generation:** Utilizes a hybrid approach combining retrieval and generation models to enhance the accuracy and relevance of responses.
+🔹**Advanced Retrieval and Generation:** Utilizes a hybrid approach combining retrieval and generation models to enhance the accuracy and relevance of responses.
 
-**User-Friendly Interface:** Provides an intuitive interface for easy document interaction and query handling.
+🔹**User-Friendly Interface:** Provides an intuitive interface for easy document interaction and query handling.
 
-**HOW IT WORKS:**
+🡆**HOW IT WORKS:**
 
-**Upload Your Document:** Users can upload their documents directly through the app.
+🔹**Upload Your Document:** Users can upload their documents directly through the app.
 
-**Text Extraction:** The application extracts text from the uploaded document.
+🔹**Text Extraction:** The application extracts text from the uploaded document.
 
-**Embedding and Retrieval:** Text is processed using embeddings and stored in a vector store for efficient retrieval.
+🔹**Embedding and Retrieval:** Text is processed using embeddings and stored in a vector store for efficient retrieval.
 
-**Question Answering:** Users can ask questions, and the app retrieves relevant information to generate precise answers based on the document's content.
+🔹**Question Answering:** Users can ask questions, and the app retrieves relevant information to generate precise answers based on the document's content.
 
-**TECHNOLOGIES USED:**
+🡆**TECHNOLOGIES USED:**
 
-**LangChain:** For managing chains of language models and retrieval systems.
+🔹**LangChain:** For managing chains of language models and retrieval systems.
 
-**FAISS:** For similarity search and document retrieval.
+🔹**FAISS:** For similarity search and document retrieval.
 
-**Google Generative AI:** For embeddings and language generation.
+🔹**Google Generative AI:** For embeddings and language generation.
 
-**Streamlit:** For creating an interactive web application.
+🔹**Streamlit:** For creating an interactive web application.
